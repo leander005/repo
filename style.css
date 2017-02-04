@@ -101,3 +101,13 @@ body {
     text-align: center;
 
 }
+.redText{
+    color:red;
+}
+
+.greenText{
+    color: green;
+}
+.orangeText{
+    color: orange;
+}
