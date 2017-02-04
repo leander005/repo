@@ -78,5 +78,13 @@ body {
     padding-left: 23.5%;
     
 }
+.quote {
+    text-align: center;
+    font: italic 1.1em/2.2 georgia;
+}
+.quoteauthor {
+    text-align: center;
+    font: italic 1.1em/2.2 georgia;
+}
 
 
