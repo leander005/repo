@@ -85,7 +85,7 @@ body {
     font: bold 1.1em/2.2 georgia;
 }
 .image{
-    width:350px;
+    width:250px;
     height: 250px;
     z-index: -1; 
 }
