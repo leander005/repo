@@ -82,5 +82,10 @@ body {
 }
 .quoteauthor {
     text-align: center;
-    font: italic 1.1em/2.2 georgia;
+    font: bold 1.1em/2.2 georgia;
+}
+.image{
+    width:350px;
+    height: 250px;
+    z-index: -1; 
 }
