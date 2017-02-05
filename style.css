@@ -86,20 +86,20 @@ body {
 }
 .image{
     width:250px;
-    height: 150px;
+    height: 250px;
     z-index: -1; 
 }
 .menu4_table{
     width: 65%;
-    border-style:dashed;
-    border-color: gray
-
-   
+    border-style:none;
 }
 
 .center{
     text-align: center;
 
+}
+.center img {
+    border-radius:50px;
 }
 .redText{
     color:red;
