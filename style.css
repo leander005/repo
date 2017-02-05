@@ -74,8 +74,15 @@ body {
 .img {
     width:700px;
     height: 500px;
-    z-index: -1;     
+    z-index: -1; 
+
 }
+
+.welcome .img{
+    margin: auto;
+    display: block;
+}
+
 .quote {
     text-align: center;
     font: italic 1.1em/2.2 georgia;
@@ -112,4 +119,8 @@ body {
 }
 .orangeText{
     color: orange;
+}
+
+.whiteText{
+    color: white;
 }
