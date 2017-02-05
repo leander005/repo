@@ -82,6 +82,12 @@ body {
     margin: auto;
     display: block;
 }
+.box{
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    border-style: dashed;
+}
 
 .quote {
     text-align: center;
