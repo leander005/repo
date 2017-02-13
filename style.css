@@ -120,6 +120,7 @@ body {
     position: absolute;
     left: 0;
     top:0;
+    border-radius: 50px;
 }
 .container .text{
 
