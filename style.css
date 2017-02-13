@@ -83,10 +83,15 @@ body {
     display: block;
 }
 .box{
-    width: 600px;
+    width: 800px;
     text-align: center;
     margin: auto;
-    border-style: dashed;
+    
+     
+}
+.box .container{
+     width: 900px;
+    margin: auto;  
 }
 
 .quote {
@@ -102,6 +107,30 @@ body {
     height: 250px;
     z-index: -1; 
 }
+.container{
+  max-width: 250px;
+    height: 250px;
+  position: relative;
+
+    display:inline-block
+}
+.image_aboutUs{
+        width:250px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.container .text{
+
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+    top: 75%;
+    left: 15%;
+}
+
 .menu4_table{
     width: 65%;
     border-style:none;
