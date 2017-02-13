@@ -90,8 +90,7 @@ body {
      
 }
 .box .container{
-     width: 900px;
-    margin: auto;  
+     
 }
 
 .quote {
@@ -111,7 +110,8 @@ body {
   max-width: 250px;
     height: 250px;
   position: relative;
-
+    width: 900px;
+    margin: auto;  
     display:inline-block
 }
 .image_aboutUs{
