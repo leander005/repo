@@ -12,7 +12,7 @@ body {
     opacity: 0.8;
     color:black;
     font-size: 25px;
-    font-family: Amatic SC;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     padding-left: 0px;
     position: fixed;
     width: 100%;
@@ -40,37 +40,37 @@ body {
     padding-top: 60px;
     text-align: center;
     color:bisque;
-    font-family: Julius Sans One;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:3.5em;
 }
 .welcome p {
     text-align: center;
     color: white;
-    font-family: Coustard;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
 }
 .welcome h2 {
     text-align: center;
     color:aquamarine;
-    font-family: Coustard;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     
 }
 .fonts h1 {
     padding-top: 60px;
     text-align: center;
-    font-family: Special Elite;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color:burlywood;
     
 }
 .fonts p {
     text-align: center;
-    font-family: Coustard;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
     font-size: 17px;
 }
 .fonts h2 {
     text-align: center;
-    font-family: Numans;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     color:burlywood;
 }
 .img {
