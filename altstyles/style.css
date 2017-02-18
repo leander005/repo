@@ -88,6 +88,7 @@ body {
     text-align: center;
     margin: auto;     
 }
+
 .quote {
     text-align: center;
     font: italic 1.1em/2.2 georgia;
@@ -132,25 +133,44 @@ body {
 }
 .image{
     width:250px;
-    height: 250px;
+    height:250px;
     z-index: -1; 
 }
 .container{
-  max-width: 250px;
-    height: 250px;
+  max-width: 230px;
+  height:250px;
   position: relative;
-    width: 900px;
-    margin: 50px;  
-    display:inline-block
+  width: 900px;
+  margin: 50px;  
+  display:inline-block;
+
+} 
+.image_aboutUs{
+    width:250px;
+    height: 250px;
+    position: absolute;
+    left: 0;
+    top:0;
+    border-radius: 50px;
+    transition: 0.1s ease-in-out;
+}
+
+.image_aboutUs:hover{
+    transform: scale(1.2);
 }
 
 .container .text{
   position: absolute;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
-    top: 75%;
-    left: 15%;
+  top: 70%;
+  left: 15%;
+  transition: 1s ease-in-out;
+}
+
+.text:hover{
+    transform: scale(1.2);
 }
 
 .menu4_table{
@@ -174,6 +194,7 @@ body {
     color:red;
 	animation: anim3 8s linear infinite;
 }
+
 @keyframes anim3{
 	0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
     opacity:1; text-shadow: 5px 5px 5px darkred;
@@ -194,35 +215,10 @@ body {
     color: white;
 }
 
-.picture img{
-    width:250px;
-    height: 250px;
-    position: absolute;
-    left: 0;
-    top:0;
-    border-radius: 50px;
-    transition: all .2s ease-in-out;
-}
-
-.picture:hover{
-    transform: scale(1.7,1.7);
-}
-
-.frame{
-    height: 250px;
-    width:250px;
-    overflow:hidden;
-}
-
-
 @keyframes fadeinout{
     0%{opacity: 0;}
     5%{opacity: 1;}
     50% { opacity:0; }
 	70% { opacity:1; }
 	100% { opacity:1; }
-		
-	
-
-   
 }

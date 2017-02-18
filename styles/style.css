@@ -115,7 +115,7 @@ body {
     display:inline-block
 }
 .image_aboutUs{
-        width:250px;
+    width:250px;
     height: 250px;
     position: absolute;
     left: 0;
@@ -123,7 +123,6 @@ body {
     border-radius: 50px;
 }
 .container .text{
-
   position: absolute;
   color: white;
   font-size: 15px;
