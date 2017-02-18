@@ -34,7 +34,7 @@ body {
     overflow: hidden;
 }
 .navClass ul li:hover {
-    background-color: green;
+    background-color: red;
     overflow: hidden;
 }
 .welcome h1 {
