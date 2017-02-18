@@ -92,10 +92,44 @@ body {
 .quote {
     text-align: center;
     font: italic 1.1em/2.2 georgia;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	white-space: nowrap;
+	animation: anim1 4s steps(47) 1s 1 normal both;
 }
 .quoteauthor {
     text-align: center;
     font: bold 1.1em/2.2 georgia;
+	animation: anim2 5s 1 normal;
+}
+@keyframes anim1{
+	from{
+		width: 0;
+	}
+	to{
+		width: 27em;
+	}
+}
+@keyframes anim2{
+	0%{
+		opacity: 0;
+	}
+	20%{
+		opacity: 0;
+	}
+	40%{
+		opacity: 0;
+	}
+	60%{
+		opacity: 0;
+	}
+	80%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
 }
 .image{
     width:250px;
@@ -136,6 +170,18 @@ body {
 }
 .redText{
     color:red;
+}
+.redText u{
+    color:red;
+	animation: anim3 8s linear infinite;
+}
+@keyframes anim3{
+	0%,19.999%,22%,62.999%,64%, 64.999%,70%,100% {
+    opacity:1; text-shadow: 5px 5px 5px darkred;
+  }
+  20%,21.999%,63%,63.999%,65%,69.999% {
+    opacity:0.4; text-shadow: none; 
+  }
 }
 
 .greenText{
